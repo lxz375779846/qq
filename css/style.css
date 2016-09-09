@@ -1,0 +1,437 @@
+body,h1,h2,h3,h4,h5,h6,p{margin:0;padding: 0;}
+
+.lond{background:#142441;width:100%;height:100%;position:relative;}
+.londing{width:202px;padding-top:182px;text-align:center;margin:0 auto;}
+.lond-hj{position:relative;padding-top:213px}
+.plan_wrap{ display:block; width:130px; height:16px; margin:0 auto; padding:3px; border-radius:25px; background-color:#000017;}
+.plan{ height:16px;border-radius:25px;background-color:#036;}
+.plan_text{ height:15px; line-height:15px; text-align:center; color:#d5eefe; margin:5px;}
+.btn{width:160px; height:42px; outline:none; border:1px solid #d5eefe; border-radius:26px; color:#d5eefe; background:none;cursor:pointer;
+animation:btn 0.4s;
+-webkit-animation:btn 0.4s;}
+@keyframes btn{
+	0% {width:160px; height:42px;}
+	30%{width:222px; height:30px;}
+	40%{width:137px; height:51px;}
+	55%{width:170px; height:36px;}
+	65%{width:163px; height:45px;}
+	75%{width:149px; height:38px;}
+	95%{width:169px; height:40px;}
+	100%{width:160px; height:42px;}
+}
+.huojian{
+position:absolute;
+top:50px;
+left:64px;
+background-image:url(../images/m1-man.32.png); background-repeat:repeat-x; height:163px; width:70px;
+margin:0 auto;
+animation:huojian 0.2s;
+-webkit-animation:huojian 0.2s;
+animation-timing-function:steps(3,start);
+-webkit-animation-direction:alternate;
+animation-iteration-count:infinite;
+-webkit-animation-iteration-count:infinite;
+}
+@keyframes huojian{
+0% { background-position:0px 0px;}
+100% { background-position:210px 0px;}
+}
+.flsh{animation:flsh 3s;-webkit-animation:flash 3s;animation-iteration-count:infinite;}
+@keyframes flsh{
+0% {transform:scale(1);}
+25%{transform:scale(.9);}
+50%{transform:scale(1.3);}
+75%{transform:scale(1);}
+100%{transform:scale(1.1);}
+}
+.star1,.star2,.star3,.star4{position:absolute; width:10px; height:10px; background:url(../images/loading-imp.32.png) no-repeat;}
+.star1{background-position: -82px 0;left:125px;top:37px}
+.star2{background-position: -82px 0;left:50px;top:88px}
+.star4{background-position: -82px -34px;left:145px;top:160px}
+.star3{background-position: -82px -34px;left:45px;top:177px}
+
+
+.content{}
+.first{height:635px;background:rgb(42, 62, 99);;}
+.first-page{width:250px; height:350px; padding-top:128px; margin:0 auto; position:relative;}
+.first-page p{background:url(../images/m-animate-1-imp.32.png) no-repeat -369px -78px;width:210px;height:34px;margin: 0 auto;}
+.iphone{ background:url(../images/m2-phone.32.png) center no-repeat; width:121px; height:245px;position: absolute;
+ top:182px; left:65px;animation:iphone 0.3s;-webkit-animation:iphone 0.3s;z-index:2;opacity:0;
+ animation-fill-mode:forwards;animation-delay:1.5s;-webkit-animation-delay:1.5s; }
+@keyframes iphone{
+0%{ top:144px;opacity:1;}
+90%{ top:187px;opacity:1;}
+100%{top:182px;opacity:1;}
+}
+.iphone-bot{width:230px;height:144px;background:url(../images/m-animate-1-imp.32.png) no-repeat 0px 0px;position:absolute;left:19px;bottom:0px;
+			animation:iphone-bot 3s;z-index: 1;}
+@keyframes iphone-bot{
+23%{bottom:0px;}
+25%{bottom:-8px;}
+28%{bottom:0px;}
+44%{bottom:0px;}
+47%{ bottom:-10px;}
+49%{ bottom:0px;}
+}
+.mom{width:33px; height:32px; top:242px; left:0px;background:url(../images/m-animate-1-imp.32.png) no-repeat -382px 0px;position:absolute;
+	animation:mom 3s;animation-iteration-count:infinite;}
+@keyframes mom{
+	25%{transform:scale(1);}
+	50%{transform:scale(1.1);}
+	75%{transform:scale(1);}
+	100%{transform:scale(.9);}
+}		
+.mom-b{width:39px; height:85px; top:336px; left:15px;background:url(../images/m-animate-1-imp.32.png) no-repeat -301px 0px;position:absolute;
+	animation:mom-b 0.3s;z-index: 2;opacity: 0;animation-delay: .7s;animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;-webkit-animation-delay: .7s;-webkit-animation: flag 0.3s;}
+@keyframes mom-b{
+	0%{ top:323px;opacity:1;}
+90%{ top:350px;}
+100%{top:343px;opacity:1;}
+	}
+.rocket{width:38px; height:78px; top:343px; left:195px;background:url(../images/m-animate-1-imp.32.png) no-repeat -343px 0px;position:absolute;
+	animation:rocket 0.3s;z-index: 2;opacity: 0;animation-delay: .7s;animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;-webkit-animation-delay: .7s;-webkit-animation: flag 0.3s;}
+@keyframes rocket{
+	0%{ top:323px;opacity:1;}
+90%{ top:350px;}
+100%{top:343px;opacity:1;}
+}
+.hot-fire{width:68px; height:98px; top:169px; left:165px;background:url(../images/m-animate-1-imp.32.png) no-repeat -231px 0px;position:absolute;
+	animation:hot-fire 3.5s;z-index: 3;opacity: 0;animation-iteration-count: infinite;animation-delay: 2s;
+	}
+@keyframes hot-fire{
+	0%{ top:169px;opacity:1;}
+50%{ top:179px;}
+100%{top:169px;opacity:1;}
+}
+
+
+.tow-page,.three-page{width:287px;height:350px;margin:0 auto;padding-top:137px;position:relative;}
+.iphone-b{width:122px; height:247px; top:137px; left:83px;background:url(../images/m3-phone.32.png) no-repeat;position:absolute;
+	animation:iphone-b 0.3s;z-index: 2;opacity: 0;animation-fill-mode: forwards;;animation-delay: 2s;}
+@keyframes iphone-b{
+0%{ top:116px;opacity:1;}
+90%{ top:143px;opacity:1;}
+100%{top:137px;opacity:1;}
+}
+.stellar1,.stellar2,.stellar3,.stellar4,.stellar5{background: url(../images/m-animate-1-imp.32.png) no-repeat;position:absolute;}
+.stellar1{ width:40px; height:40px; top:193px; background-position:-286px -98px;
+animation:stellar1 0.3s;-webkit-animation:stellar1 0.3s;
+animation-delay:.5s;-webkit-animation-delay:.5s;opacity:0;
+animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards;
+}
+@keyframes stellar1{
+0%{opacity:1;}
+90%{opacity:1;}
+100%{opacity:1;}
+}
+.stellar2{ width:32px; height:30px; top:150px; left:216px; background-position:-382px -32px;
+animation::stellar2 0.3s;-webkit-animation:stellar2 0.3s;
+animation-delay:.9s;-webkit-animation-delay:1.5s;opacity:0;
+animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards;
+}
+@keyframes stellar2{
+0%{opacity:1;}
+90%{opacity:1;}
+100%{opacity:1;}
+}
+.stellar3{ width:51px; height:44px; top:208px; left:236px; background-position:-230px -98px;
+animation:stellar3 0.3s;-webkit-animation:stellar3 0.3s;
+animation-delay:1.9s;-webkit-animation-delay:1.9s;opacity:0;
+animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards;
+}
+@keyframes stellar3{
+0%{opacity:1;}
+90%{opacity:1;}
+100%{opacity:1;}
+}
+.stellar4{ width:42px; height:40px; top:291px; right:38px; background-position:-328px -85px;
+animation:stellar4 0.3s;-webkit-animation:stellar4 0.3s;
+animation-delay:2.4s;-webkit-animation-delay:2.4s;opacity:0;
+animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards;
+}
+@keyframes stellar4{
+0%{opacity:1;}
+90%{opacity:1;}
+100%{opacity:1;}
+}
+.stellar5{ width:31px; height:26px; top:357px; right:0px; background-position:-417px -0px;
+animation:stellar5 0.3s;-webkit-animation:stellar5 0.3s;
+animation-delay:2.8s;-webkit-animation-delay:2.7s;opacity:0;
+animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards;
+}
+@keyframes stellar5{
+0%{opacity:1;}
+90%{opacity:1;}
+100%{opacity:1;}
+}
+.new-desgin{width:165px; height:28px; top:400px; left:60px;background:url(../images/m-animate-1-imp.32.png) no-repeat -450px -32px;position:absolute;
+	animation:new-desgin 0.4s;;opacity: 0;animation-fill-mode: forwards;;animation-delay: 1s;}
+@keyframes new-desgin{
+0%{top:380px;opacity:1;}
+100%{top:400;opacity:1;}
+}
+.dt{width:208px; height:12px; top:434px; left:34px;background:url(../images/m-animate-1-imp.32.png) no-repeat -383px -64px;position:absolute;
+	animation:dt 0.3s ease-in;opacity: 0;animation-fill-mode: forwards;;animation-delay: 0.8s;}
+@keyframes dt{
+0%{top:380px;opacity:1;}
+100%{top:434px;opacity:1;}
+}
+.zan{width:61px; height:28px; top:454px; left:110px; background:url(../images/mlike.32.png) center no-repeat;position:absolute;
+animation:zan .5s ease-in;
+animation-fill-mode:forwards;
+animation-delay:0.8s;}
+@keyframes zan{
+0%{ top:434px}
+25%{top:454px}
+50%{top:464px}
+75%{top:444px}
+100%{top:454px}
+}
+.fleck1{ top:299px; left:60px; width:8px; height:8px; border-radius:99px; background-color:#FFC028;
+animation:fleck1 4s infinite;-webkit-animation:fleck1 4s infinite;opacity:1;position: absolute;
+}
+@keyframes fleck1{
+0%{opacity:0;transform:scale(1);}
+50%{opacity:1;transform:scale(1.2);}
+100%{opacity:0;transform:scale(1);}
+}
+@keyframes fleck2{
+0%{opacity:1;transform:scale(1);}
+50%{opacity:0;transform:scale(1.2);}
+100%{opacity:1;transform:scale(1);}
+}
+.fleck2{top:321px; left:18px; width:6px; height:6px; border-radius:99px; background-color:#FFC028;
+animation:fleck2 4s infinite;-webkit-animation:fleck2 4s infinite;opacity:1;position: absolute;}
+.fleck3{top:371px; left:57px; width:2px; height:2px; border-radius:99px; background-color:#FFC028;
+animation:fleck1 4s infinite;-webkit-animation:fleck1 4s infinite;opacity:1;position: absolute;}
+.fleck4{top:269px; left:212px; width:5px; height:5px; border-radius:99px; background-color:#FFC028;
+animation:fleck2 4s infinite;-webkit-animation:fleck2 4s infinite;opacity:1;position: absolute;}
+.fleck5{top:177px; left:269px; width:6px; height:6px; border-radius:99px; background-color:#FFC028;
+animation:fleck1 4s infinite;-webkit-animation:fleck1 4s infinite;opacity:1;position: absolute;}
+.fleck6{top:367px; left:226px; width:5px; height:5px; border-radius:99px; background-color:#FFC028;
+animation:fleck2 4s infinite;-webkit-animation:fleck2 4s infinite;opacity:1;position: absolute;}
+.fleck7{position: absolute;top:190px; left:54px; width:10px; height:10px; border-radius:99pxl; background:url(../images/m-animate-1-imp.32.png) -628px -35px no-repeat;animation:fleck2 4s infinite;-webkit-animation:fleck2 4s infinite;opacity:1;}
+
+.iphone-c{width:122px; height:247px; top:137px; left:83px;background:url(../images/m4-phone.32.png) no-repeat;position:absolute;
+	animation:iphone-b 0.3s;z-index: 2;opacity: 0;animation-fill-mode: forwards;;animation-delay: 1s;}
+@keyframes iphone-c{
+0%{ top:116px;opacity:1;}
+90%{ top:143px;opacity:1;}
+100%{top:137px;opacity:1;}
+}
+.aircraft{width:90px; height:75px; top:110px; left:242px; background:url(../images/m-animate-2-imp.32.png) no-repeat -303px -0px;position:absolute;
+animation:aircraft .5s ease-in;opacity: 0;
+animation-fill-mode:forwards;
+animation-delay:0.8s;}
+@keyframes aircraft{
+0%{ left:242px;opacity:1;}
+100%{ left:215px;opacity:1;}
+}
+.yaoyao{top:148px; left:195px; width:86px; height:110px;animation:yaoyao 2s infinite;animation-delay:2s;transform:rotate(-10deg);position: absolute;}
+@keyframes yaoyao{
+0%{transform:rotate(-10deg);-webkit-transform:rotate(-10deg);opacity:1;}
+50%{transform:rotate(30deg);-webkit-transform:rotate(30deg);}
+100%{transform:rotate(-10deg);-webkit-transform:rotate(-10deg);opacity:1;}
+}
+.yaoren{width:43px; height:55px; bottom:0px; right:0px;background:url(../images/m-animate-2-imp.32.png) no-repeat -303px -77px;position: absolute;}
+.plane{width:66px; height:62px; top:325px; left:-10px; background:url(../images/m-animate-2-imp.32.png) no-repeat -432px -0px;position:absolute;
+animation:plane .3s ease-in;opacity: 0;z-index: 3;
+animation-fill-mode:forwards;
+animation-delay:1s;}
+@keyframes plane{
+from{transform:scale(0.7); -webkit-transform:scale(0.7);opacity:1;}
+to{transform:scale(1); -webkit-transform:scale(1); left:49px;opacity:1;}
+}
+.bee{width:41px; height:31px; top:230px; left:-20px; background:url(../images/m-animate-2-imp.32.png) no-repeat -387px -77px;position:absolute;
+animation:bee .3s ease-in;opacity: 0;
+animation-fill-mode:forwards;
+animation-delay:1.7s;}
+@keyframes bee{
+	0%{ left:-20px;opacity:1;}
+100%{ left:17px;opacity:1;}
+}
+.new-desgin2{width:165px; height:28px; top:400px; left:80px;background:url(../images/m-animate-1-imp.32.png) no-repeat -723px -61px;;position:absolute;
+	animation:new-desginb 0.4s;;opacity: 0;animation-fill-mode: forwards;;animation-delay: 1s;}
+@keyframes new-desginb{
+0%{top:380px;opacity:1;}
+100%{top:400px;opacity:1;}
+}
+.dianzan{width:61px; height:28px; top:454px; left:110px; background:url(../images/mlike.32.png) center no-repeat;
+animation:dianzan .5s ease-in;-webkit-animation:praise .5s ease-in;position:absolute;
+animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards;
+animation-delay:0.8s;-webkit-animation-delay:0.8s;}
+@keyframes dianzan{
+0%{ top:434px}
+25%{top:454px}
+50%{top:464px}
+75%{top:444px}
+100%{top:454px}
+}
+.fleck8,.fleck9,.fleck10{ background:url(../images/m-animate-2-imp.32.png) no-repeat -905px 0px; width:7px; height:7px;position:absolute;}
+.fleck8{ top:182px; left:61px;animation:fleck2 4s infinite;-webkit-animation:fleck2 4s infinite;opacity:1;}
+.fleck9{ top:317px; left:31px;animation:fleck1 4s infinite;-webkit-animation:fleck1 4s infinite;opacity:1;}
+.fleck10{ top:352px; left:237px;animation:fleck2 4s infinite;-webkit-animation:fleck2 4s infinite;opacity:1;}
+
+.four-page{width:256px;height:350px;padding-top:128px;margin:0 auto;position:relative;}
+.iphone-d{width:179px; height:243px; top:137px; left:36px;background:url(../images/m5-phone.32.png) no-repeat;position:absolute;
+	animation:iphone-d 0.3s;z-index: 2;opacity: 0;animation-fill-mode: forwards;;animation-delay: 1s;}
+@keyframes iphone-d{
+0%{ top:116px;opacity:1;}
+90%{ top:143px;opacity:1;}
+100%{top:137px;opacity:1;}
+}
+.four-one{width:87px; height:83px; background:url(../images/m-animate-2-imp.32.png) no-repeat -115px 0px;position: absolute; 
+animation:four-one .2s ease-in;
+animation-fill-mode:forwards;
+animation-delay:1.3s;
+transform: scale(0.7);
+top:272px;left:30px;}
+@keyframes four-one{
+0%{transform: scale(0.7);-webkit-transform:scale(0.7);opacity:1; z-index:3;}
+100%{transform: scale(1);-webkit-transform:scale(1);opacity:1;top:262px; left:0; z-index:3;}
+}
+.four-tow{width:81px; height:81px; background:url(../images/m-animate-2-imp.32.png) no-repeat -213px -2px;position: absolute; 
+animation:four-tow .2s ease-in;opacity: 0;
+animation-fill-mode:forwards;
+animation-delay:1.5s;
+transform: scale(0.7);
+top:272px;right:20px;}
+@keyframes four-tow{
+0%{transform: scale(0.7);-webkit-transform:scale(0.7);opacity:1; z-index:3;}
+100%{transform: scale(1);-webkit-transform:scale(1);opacity:1;top:237px; right:0px;}
+}
+.four-three{width:105px; height:112px; background:url(../images/m-animate-2-imp.32.png) no-repeat 0px 0px;position: absolute; 
+animation:four-three .2s ease-in;opacity: 0;
+animation-fill-mode:forwards;
+animation-delay:1.7s;
+transform: scale(0.7);
+top:115px;left:20px;}
+@keyframes four-three{
+0%{transform: scale(0.7);-webkit-transform:scale(0.7);opacity:1; z-index:3;opacity: 1;}
+100%{transform: scale(1);-webkit-transform:scale(1);opacity:1;top:125px;left: 0px; opacity: 1;;}
+}
+.four-four{width:37px; height:48px; background:url(../images/m-animate-2-imp.32.png) no-repeat -348px -76px;position: absolute; 
+animation:four-four .4s ease-in;opacity: 0;
+animation-fill-mode:forwards;
+animation-delay:1.9s;
+transform: scale(0.7);
+top:390px;left:198px;}
+@keyframes four-four{
+0%{transform:opacity: 0;}
+100%{opacity:1;top:356px;left: 198px;}
+}
+.footer-page{background:#97C96A url(../images/2016-07-28_105840.png) top repeat-x;width: 100%;height:100%;}
+.footer-body{width:297px;height:350px;padding-top:128px;margin:0 auto;position:relative;}
+.house{background:url(../images/m-animate-3-imp.32.png) no-repeat -15px 0px; width:297px;height:105px;position: absolute;top:177px}
+.iphone-e{width:190px; height:243px; top:62px; left:57px;background:url(../images/m6-phone.32.png) no-repeat;position:absolute;
+	animation:iphone-e 0.3s;z-index: 2;opacity: 0;animation-fill-mode: forwards;animation-delay: 0.8s;}
+@keyframes iphone-e{
+0%{ top:62px;opacity:1;}
+90%{ top:89px;opacity:1;}
+100%{top:82px;opacity:1;}
+}
+.cloud{background: url(../images/m-animate-3-imp.32.png) no-repeat -312px -106px;width: 50px;height:25px;position:absolute;top:86px;left:-31px;
+		animation:cloud 1s linear;animation-fill-mode: forwards;z-index: 2;}
+@keyframes cloud{
+	0%{ left:-31px;}
+100%{left:31px;}
+}
+.tang{background: url(../images/m-animate-3-imp.32.png) no-repeat -538px 0px;width: 57px;height:57px;position:absolute;top:123px;right: 0px;
+		animation:tang 1s linear;animation-fill-mode: forwards;z-index: 2;animation-delay: 2s;opacity: 0;}
+@keyframes tang{
+	0%{ transform: scale(0.7);right:10px;top:133px;opacity:1;}
+100%{ transform: scale(1);right:0px;top:123px;opacity:1;}
+}
+.zou-a{position:absolute;left:140px;top:209px;animation:zou-a 1.8s linear;animation-fill-mode: forwards;opacity: 1;}
+@keyframes zou-a{
+	0% {left:140px;opacity:1;}
+100% {left:207px;opacity:0.5;}
+}
+.zou-b{background:url(../images/mrunner.32.png) left top no-repeat;width:60px;height:67px;animation:zou-b 0.5s linear;animation-timing-function: steps(8,start);}
+@keyframes zou-b{
+0% { background-position:left 0px; left:0px;}
+100% { background-position: right 0px; left:100px;}
+}
+.yinying{background: url(../images/m-animate-3-imp.32.png) no-repeat -597px -46px;width: 103px;height:8px;position:absolute;top:320px;left: 69px;}
+.ht{background: url(../images/m-animate-3-imp.32.png) no-repeat -149px -109px;width: 112px;height:22px;position:absolute;top:345px;left:89px;
+		animation:ht 0.4s linear;animation-fill-mode: forwards;z-index: 2;animation-delay: 1s;opacity: 0;}		
+@keyframes ht{
+	
+0%{top:325px;opacity:1;}
+100%{top:245;opacity:1;}
+
+}
+.last{background:url(../images/m-animate-3-imp.32.png) no-repeat -385px -128px;width:258px;height:14px;position: absolute;top:377px;left:16px;
+	animation:last 0.3s ease-in;animation-fill-mode: forwards;animation-delay: 0.8s;opacity: 0;}
+@keyframes last{
+	0%{top:323px;opacity:1;}
+100%{top:377px;opacity:1;}
+}
+
+
+.section div{display:none;}
+.section.active div{display:block;}
+
+.zoulu1{ left:140px;top:209px;
+animation:zoulu1 1.8s linear;position:absolute;
+-webkit-animation:zoulu1 1.8s linear;
+animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards;opacity:1;
+}
+@keyframes zoulu1{
+0% {left:140px;opacity:1;}
+100% {left:207px;opacity:0.5;}
+}
+.zoulu{ background:url(../images/mrunner.32.png) left top no-repeat; width:60px; height:67px;
+animation:zoulu 0.5s infinite;
+-webkit-animation:zoulu 0.5s infinite;
+animation-timing-function:steps(8,start);
+-webkit-animation-direction:alternate;
+}
+@keyframes zoulu{
+0% { background-position:left 0px; left:0px;}
+100% { background-position: right 0px; left:100px;}
+}
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: dash 3s linear;
+  animation: dash 3s linear;
+  animation-delay:1.3s;-webkit-animation-delay:1.3s;
+  animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards;
+}
+path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: dash 5s linear;
+  animation: dash 5s linear;
+  animation-delay:.5s;-webkit-animation-delay:.5s;
+  animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards;
+}
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+
+
